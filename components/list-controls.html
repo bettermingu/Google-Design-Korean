@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+'Futurizr': {
+'hasTouch': 'touch'
+}
+}">
+<head>
+<link href="../css/style.css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, width=device-width"/>
+<!--<PageMap><DataObject type="document"><Attribute name="uid">140261728925530</Attribute><Attribute name="title">List controls</Attribute><Attribute name="keywords"></Attribute><Attribute name="slug">list-controls</Attribute><Attribute name="description">tbd</Attribute><Attribute name="section_title">Components</Attribute><Attribute name="section_slug">components</Attribute></DataObject><DataObject type="thumbnail"><Attribute name="src" value="None" /></DataObject></PageMap>-->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-51798601-1', 'google.com');
+ga('send', 'pageview');
+</script>
+<title>List controls - Components - Google design guidelines</title>
+</head>
+<body class=" section-components noninitial-chapter qp-ui" data-qp-ui="{ 'Mask': {} }">
+<header>
+<div class="header-wrapper">
+<div class="header-title">
+<span class="section-title">Components</span>
+<span class="chapter-title">List controls</span>
+</div>
+</div>
+</header>
+<nav>
+<button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">Show navigation</button>
+</nav>
+<div class="preview-bar">
+<div class="preview-wrapper">
+<span>This document is a preview.</span>
+</div>
+</div>
+<div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+<div class="side-nav-wrapper">
+<span id="logo"><img src="http://material-design.storage.googleapis.com/images/Google_Logo.svg" alt="Google logo"/></span>
+<nav>
+<dl>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material Design</dt>
+<dd>
+<a href="../index.html">Introduction</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Animation</dt>
+<dd>
+<a href="../animation/authentic-motion.html">Authentic Motion</a>
+<a href="../animation/responsive-interaction.html">Responsive Interaction</a>
+<a href="../animation/meaningful-transitions.html">Meaningful Transitions</a>
+<a href="../animation/delightful-details.html">Delightful Details</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Style</dt>
+<dd>
+<a href="../style/color.html">Color</a>
+<a href="../style/typography.html">Typography</a>
+<a href="../style/icons.html">Icons</a>
+<a href="../style/imagery.html">Imagery</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Layout</dt>
+<dd>
+<a href="../layout/layout-principles.html">Principles</a>
+<a href="../layout/metrics-and-keylines.html">Metrics and Keylines </a>
+<a href="../layout/structure.html">Structure</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Components</dt>
+<dd>
+<a href="bottom-sheets.html">Bottom Sheets</a>
+<a href="buttons.html">Buttons</a>
+<a href="cards.html">Cards</a>
+<a href="chips-tokens.html">Chips </a>
+<a href="dialogs.html">Dialogs</a>
+<a href="dividers.html">Dividers</a>
+<a href="grids.html">Grids</a>
+<a href="lists.html">Lists</a>
+<a class="nav_selected" href="list-controls.html">List controls</a>
+<a href="menus.html">Menus</a>
+<a href="progress-activity.html">Progress and Activity </a>
+<a href="sliders.html">Sliders</a>
+<a href="snackbars-and-toasts.html">Snackbars and Toasts</a>
+<a href="subheaders.html">Subheaders </a>
+<a href="switches.html">Switches</a>
+<a href="tabs.html">Tabs</a>
+<a href="text-fields.html">Text fields </a>
+<a href="tooltips.html">Tooltips</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Patterns</dt>
+<dd>
+<a href="../patterns/selection.html">Selection</a>
+<a href="../patterns/gestures.html">Gestures</a>
+<a href="../patterns/promoted-actions.html">Promoted Actions </a>
+<a href="../patterns/settings.html">Settings</a>
+<a href="../patterns/imagery-treatment.html">Imagery Treatment </a>
+<a href="../patterns/search.html">Search </a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Usability</dt>
+<dd>
+<a href="../usability/accessibility.html">Accessibility</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Resources</dt>
+<dd>
+<a href="../resources/layout-templates.html">Layout Templates</a>
+<a href="../resources/sticker-sheets.html">Sticker Sheets</a>
+<a href="../resources/roboto-font.html">Roboto Font</a>
+<a href="../resources/color-palettes.html">Color Palettes</a>
+</dd>
+</dl>
+</nav>
+<div class="legal">
+<p class="copyright">Google &copy;</p>
+<a href="http://www.google.com/intl/en/policies/privacy/">Privacy</a> &amp; <a href="http://www.google.com/intl/en/policies/terms/">Terms</a>
+</div>
+</div>
+</div>
+<div id="grid-cont">
+<section class="grid_outer chapter">
+<h1 class="chapter-title">List controls</h1>
+<div class="chapter-content">
+<nav class="chapter-toc">
+<h1>Contents</h1>
+<ul>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="list-controls.html#list-controls-usage">Usage</a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="list-controls.html#list-controls-types-of-list-controls">Types of list controls</a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="list-controls.html#list-controls-types-of-menu-controls">Types of menu controls</a></li>
+</ul>
+</nav>
+<div class="article-list">
+<div id="list-controls-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Usage
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="usage-list-controls-usage-1">
+<section class="moduleE1">
+<div class="module-body">
+<p>
+List controls fall under four categories:</p>
+<ul>
+<li>State</li>
+<li>Primary action (including text strings)</li>
+<li>Secondary action</li>
+<li>Secondary info</li>
+</ul>
+<p>Distinguishing elements of list titles need to be first in read order, so states and primary actions are placed on the left side of a list title. Text within a list item should be considered part of the primary action target.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-listcontrols-listcontrols_03_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-listcontrols-listcontrols_03_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-listcontrols-listcontrols_03_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-listcontrols-listcontrols_03_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="usage-list-controls-usage-2">
+<section class="moduleB1">
+<div class="module-body">
+<p>Don’t place two icons or actions next to one another, such as a checkbox next to an avatar.</p>
+<p>If the primary action of the list item is navigational, don’t use an icon. The list item itself and its context should be sufficient to communicate the destination.</p>
+<p>Secondary actions and Info should be placed on the right side of the title. Secondary actions are always a separate target from the primary action, as users increasingly expect every icon to trigger an action.</p>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="list-controls-types-of-list-controls" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Types of list controls
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="types-of-list-controls-checkbox-1">
+<section class="moduleE1">
+<h3>Checkbox</h3>
+<div class="module-body">
+<p>A checkbox can either be a primary action or a secondary action.</p>
+<p>Type: Primary Action/ State</p>
+<p><strong>Separate target</strong></p>
+<p>Desktop on hover only.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_08_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_08_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_08_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_08_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Checkbox is the primary action and the state indicator for the list item.
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="types-of-list-controls-checkbox-2">
+<section class="moduleE1">
+<div class="module-body">
+<p>Type: Secondary Action</p>
+<p>Separate target</p>
+<p>When controlling a family of variables, instead of just one, consider using switches instead.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_10_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_10_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_10_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_10_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Checkbox is the secondary action for the list item.
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="types-of-list-controls-switch">
+<section class="moduleE1">
+<h3>Switch</h3>
+<div class="module-body">
+<p>Type: Secondary Action</p>
+<p>Separate target</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_30_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_30_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_30_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_30_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="types-of-list-controls-reorder">
+<section class="moduleE1">
+<h3>Reorder</h3>
+<div class="module-body">
+<p>Type: Secondary Action</p>
+<p>Usually a separate target, depending on mode list is in.</p>
+<p>Allows dragging of list item to other locations within the list. Usually appears in list editing mode.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_18_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_18_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_18_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_18_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="types-of-list-controls-expand-collapse-1">
+<section class="moduleD1">
+<h3>Expand/Collapse</h3>
+<div class="module-body">
+<p>Type: Secondary Action</p>
+<p>Separate target</p>
+<p>Expands and collapses a list view vertically to show and hide existing list items.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_26a_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_26a_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_26a_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_26a_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_26b_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_26b_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_26b_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_26b_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_28a_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_28a_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_28a_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_28a_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_28b_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_28b_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_28b_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_28b_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="types-of-list-controls-leave-behinds-1">
+<section class="moduleD1">
+<h3>Leave Behinds</h3>
+<div class="module-body">
+<p>Type: Other</p>
+<p>A leave-behind is an informative hint as to what swiping a list item away will do to that item. The leave-behind can transform into an action.</p>
+<p>Swiping on a list item from either direction will reveal an icon indicating the action. After swiping, the action appears as a text button centered within the list item space.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22a_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22a_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22a_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22a_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22b_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22b_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22b_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22b_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div class="outlined">
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22c_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22c_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22c_large_xhdpi.png 3x"></source>
+<img class="outlined" src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_22c_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="types-of-list-controls-discouraged-1">
+<section class="moduleB1">
+<h3>Discouraged: Navigational List Controls</h3>
+<div class="module-body">
+<p>Generally, navigation is implied through the text on the list item itself. An extra glyph is not necessary.</p>
+</div>
+</section>
+</div>
+<div id="types-of-list-controls-discouraged-3">
+<section class="moduleE1">
+<h3>See more</h3>
+<div class="module-body">
+<p>Type: Primary Action (along with the rest of the row)</p>
+<p>Not a separate target.</p>
+<p>Leads to more information related to the list item, usually in a new view or pane.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_16_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_16_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_16_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesoflistcontrols-listcontrols_16_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="list-controls-types-of-menu-controls" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Types of menu controls
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="types-of-menu-controls-check">
+<section class="moduleE1">
+<h3>Check</h3>
+<div class="module-body">
+<p>Type: State</p>
+<p>Not a separate target.</p>
+<p>Menus only. Denotes if list item is selected through a different control.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesofmenucontrols-listcontrols_06_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesofmenucontrols-listcontrols_06_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesofmenucontrols-listcontrols_06_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesofmenucontrols-listcontrols_06_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="types-of-menu-controls-in-line-information">
+<section class="moduleE1">
+<h3>Inline Information</h3>
+<div class="module-body">
+<p>Type: Secondary Info</p>
+<p>Not a separate target.</p>
+<p>Menus only. Inline information is a small snippet of text related to the line title that can provide information or a tip, like a keyboard shortcut. It cannot be truncated.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-listcontrols-typesofmenucontrols-listcontrols_12_large_mdpi.png, //material-design.storage.googleapis.com/images/components-listcontrols-typesofmenucontrols-listcontrols_12_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-listcontrols-typesofmenucontrols-listcontrols_12_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-listcontrols-typesofmenucontrols-listcontrols_12_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<footer>
+<div class="footer-grid">
+<div class="footer-L section-components">&nbsp;</div>
+<div class="footer-grid-L section-components">
+<a class="footer-text" href="lists.html">
+<img class="arrow-L" alt="" src="http://material-design.storage.googleapis.com/images/Arrow-left_24x24px.svg"/>
+<span>Previous:</span>
+<div>
+Lists
+</div>
+</a>
+</div>
+<div class="footer-R section-components">&nbsp;</div>
+<div class="footer-grid-R section-components">
+<a class="footer-text" href="menus.html">
+<img class="arrow-R" alt="" src="http://material-design.storage.googleapis.com/images/Arrow-right_24x24px.svg"/>
+<span>Next:</span>
+<div>
+Menus
+</div>
+</a>
+</div>
+</div>
+</footer>
+<script src="http://www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+'Futurizr': {
+'hasTouch': 'touch'
+}
+}">
+<head>
+<link href="../css/style.css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, width=device-width"/>
+<!--<PageMap><DataObject type="document"><Attribute name="uid">140251558940546</Attribute><Attribute name="title">Lists</Attribute><Attribute name="keywords"></Attribute><Attribute name="slug">lists</Attribute><Attribute name="description">tbd</Attribute><Attribute name="section_title">Components</Attribute><Attribute name="section_slug">components</Attribute></DataObject><DataObject type="thumbnail"><Attribute name="src" value="None" /></DataObject></PageMap>-->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-51798601-1', 'google.com');
+ga('send', 'pageview');
+</script>
+<title>Lists - Components - Google design guidelines</title>
+</head>
+<body class=" section-components noninitial-chapter qp-ui" data-qp-ui="{ 'Mask': {} }">
+<header>
+<div class="header-wrapper">
+<div class="header-title">
+<span class="section-title">Components</span>
+<span class="chapter-title">Lists</span>
+</div>
+</div>
+</header>
+<nav>
+<button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">Show navigation</button>
+</nav>
+<div class="preview-bar">
+<div class="preview-wrapper">
+<span>This document is a preview.</span>
+</div>
+</div>
+<div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+<div class="side-nav-wrapper">
+<span id="logo"><img src="http://material-design.storage.googleapis.com/images/Google_Logo.svg" alt="Google logo"/></span>
+<nav>
+<dl>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material Design</dt>
+<dd>
+<a href="../index.html">Introduction</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Animation</dt>
+<dd>
+<a href="../animation/authentic-motion.html">Authentic Motion</a>
+<a href="../animation/responsive-interaction.html">Responsive Interaction</a>
+<a href="../animation/meaningful-transitions.html">Meaningful Transitions</a>
+<a href="../animation/delightful-details.html">Delightful Details</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Style</dt>
+<dd>
+<a href="../style/color.html">Color</a>
+<a href="../style/typography.html">Typography</a>
+<a href="../style/icons.html">Icons</a>
+<a href="../style/imagery.html">Imagery</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Layout</dt>
+<dd>
+<a href="../layout/layout-principles.html">Principles</a>
+<a href="../layout/metrics-and-keylines.html">Metrics and Keylines </a>
+<a href="../layout/structure.html">Structure</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Components</dt>
+<dd>
+<a href="bottom-sheets.html">Bottom Sheets</a>
+<a href="buttons.html">Buttons</a>
+<a href="cards.html">Cards</a>
+<a href="chips-tokens.html">Chips </a>
+<a href="dialogs.html">Dialogs</a>
+<a href="dividers.html">Dividers</a>
+<a href="grids.html">Grids</a>
+<a class="nav_selected" href="lists.html">Lists</a>
+<a href="list-controls.html">List controls</a>
+<a href="menus.html">Menus</a>
+<a href="progress-activity.html">Progress and Activity </a>
+<a href="sliders.html">Sliders</a>
+<a href="snackbars-and-toasts.html">Snackbars and Toasts</a>
+<a href="subheaders.html">Subheaders </a>
+<a href="switches.html">Switches</a>
+<a href="tabs.html">Tabs</a>
+<a href="text-fields.html">Text fields </a>
+<a href="tooltips.html">Tooltips</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Patterns</dt>
+<dd>
+<a href="../patterns/selection.html">Selection</a>
+<a href="../patterns/gestures.html">Gestures</a>
+<a href="../patterns/promoted-actions.html">Promoted Actions </a>
+<a href="../patterns/settings.html">Settings</a>
+<a href="../patterns/imagery-treatment.html">Imagery Treatment </a>
+<a href="../patterns/search.html">Search </a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Usability</dt>
+<dd>
+<a href="../usability/accessibility.html">Accessibility</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Resources</dt>
+<dd>
+<a href="../resources/layout-templates.html">Layout Templates</a>
+<a href="../resources/sticker-sheets.html">Sticker Sheets</a>
+<a href="../resources/roboto-font.html">Roboto Font</a>
+<a href="../resources/color-palettes.html">Color Palettes</a>
+</dd>
+</dl>
+</nav>
+<div class="legal">
+<p class="copyright">Google &copy;</p>
+<a href="http://www.google.com/intl/en/policies/privacy/">Privacy</a> &amp; <a href="http://www.google.com/intl/en/policies/terms/">Terms</a>
+</div>
+</div>
+</div>
+<div id="grid-cont">
+<section class="grid_outer chapter">
+<h1 class="chapter-title">Lists</h1>
+<div class="chapter-content">
+<div class="chapter-intro">
+Lists present multiple line items in a vertical arrangement as a single continuous element.
+</div>
+<nav class="chapter-toc">
+<h1>Contents</h1>
+<ul>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-usage">Usage</a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-content">Content</a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-behavior">Behavior</a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="lists.html#lists-keylines">Keylines</a></li>
+</ul>
+</nav>
+<div class="article-list">
+<div id="lists-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Usage
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="usage-definitions">
+<section class="moduleD1">
+<div class="module-body">
+<p>A <strong>list</strong> consists of a single continuous column of tessellated sub-divisions of equal width called <strong>rows</strong> that function as containers for <strong>tiles</strong>.</p>
+<p><strong>Tiles</strong> hold content, and can vary in height within a list.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-lists-1_large_mdpi.png, //material-design.storage.googleapis.com/images/components-lists-1_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-lists-1_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-lists-1_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-lists-2_large_mdpi.png, //material-design.storage.googleapis.com/images/components-lists-2_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-lists-2_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-lists-2_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="usage-when-to-use">
+<section class="moduleD1">
+<div class="module-body">
+<p>Lists are best suited to presenting a <strong>homogeneous data type or sets of data types</strong>, such as images and text, optimized for reading comprehension, with the goal of differentiating between like data types or qualities within a single type of data.</p>
+<p>If more than three lines of text needs to be shown in list tiles, use cards instead.</p>
+<p>If the primary distinguishing content consists of images, use a grid list.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-lists-3_large_mdpi.png, //material-design.storage.googleapis.com/images/components-lists-3_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-lists-3_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-lists-3_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="lists-content" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Content
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="content-tile-content">
+<section class="moduleD1">
+<h3>Tile content</h3>
+<div class="module-body">
+<p>List tiles present collections of related content in a consistent format, using hierarchy to enhance readability by prioritizing a consistent type or set of content. For example, emphasizing an avatar and text snippet over a time stamp. This helps users more easily find the distinguishing information they are looking for within the collection of content.</p>
+<p>List tiles can contain up to three lines of text, and the amount of text can vary between tiles within the same list. To display more than 3 lines of text, use a card.</p>
+<p>Bias the most distinguishing content in a tile towards the left side of the tile, and to the first line in a tile with multi-line content.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-lists-4_large_mdpi.png, //material-design.storage.googleapis.com/images/components-lists-4_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-lists-4_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-lists-4_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="content-tile-actions">
+<section class="moduleD1">
+<h3>Tile actions</h3>
+<div class="module-body">
+<p>The majority of space on a list tile should be dedicated to the primary action.</p>
+<p>Because actions are not distinguishing elements of list tiles, place supplemental actions on the right-hand side of the tile.</p>
+<p>Primary and supplemental actions, such as play, zoom in, delete, and select, are immediate and typically do not have a submenu of options (action overflow) within the list.</p>
+<p>Actions can open a subsequent view such as a card or hovercard.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-lists-5_large_mdpi.png, //material-design.storage.googleapis.com/images/components-lists-5_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-lists-5_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-lists-5_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="content-primary-supplemental-actions">
+<section class="moduleB1">
+<div class="module-body">
+<strong>Primary actions</strong>
+<br/>
+<ul>
+<li>Fill the entire tile, and therefore are not represented via icons, text, etc.</li>
+<li>Are consistent throughout tiles in a specific list. For example, the primary action for all tiles in a single list of music would be to play a song, or in a list of emails, to open to read an email.</li>
+</ul>
+<strong>Supplemental actions</strong>
+<br/>
+<ul>
+<li>Are represented in tiles with icons, secondary text, etc.</li>
+<li>Are functionally consistent throughout tiles in a specific list, for example, an icon that indicates whether someone is online.</li>
+<li>Are placed in a consistent location within the tiles of a specific list.</li>
+</ul>
+<p>Avoid creating visual noise by repeatedly using supplemental actions in tiles, for example, by displaying a share action in every tile. Toggles, such as stars or pins, are an exception because they provide meaningful information by displaying state.</p>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="lists-behavior" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Behavior
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="behavior-scrolling">
+<section class="moduleB1">
+<div class="module-body">
+<strong>Scrolling</strong>
+<p>Lists scroll only vertically.</p>
+<strong>Gestures</strong>
+<p>Per-tile swipe actions should be consistent within lists.<br/>
+Where appropriate, tiles can be moved between a list and a drop target (for example, moving a file into a folder).<br/>
+Where appropriate, tiles can be picked up and manually reordered within a list.
+</p>
+</div>
+</section>
+</div>
+<div id="behavior-behavior-2">
+<section class="moduleD1">
+<h3>Tile filtering and sorting</h3>
+<div class="module-body">
+List tiles can be programmatically sorted or filtered by date, file size, alphabetical order, or other parameters
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure class="example do">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-lists-6_large_mdpi.png, //material-design.storage.googleapis.com/images/components-lists-6_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-lists-6_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-lists-6_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Do. </div>
+</figcaption>
+</figure>
+<figure class="example dont">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-lists-7_large_mdpi.png, //material-design.storage.googleapis.com/images/components-lists-7_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-lists-7_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-lists-7_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Don&#39;t. </div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="lists-keylines" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Keylines
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="keylines-keylines-intro-2">
+<section class="moduleD1">
+<div class="module-body">
+<p>In a <strong>single-line list</strong>, each tile contains a single line of text. The amount of text can vary between tiles within the same list.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-keylinesinlists-1_large_mdpi.png, //material-design.storage.googleapis.com/images/components-keylinesinlists-1_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-keylinesinlists-1_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-keylinesinlists-1_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-keylinesinlists-2_large_mdpi.png, //material-design.storage.googleapis.com/images/components-keylinesinlists-2_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-keylinesinlists-2_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-keylinesinlists-2_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="keylines-keylines-intro-3">
+<section class="moduleD1">
+<div class="module-body">
+<p>In a <strong>two-line list</strong>, each tile contains a maximum of two lines of text. The amount of text can vary between tiles within the same list.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-keylinesinlists-3_large_mdpi.png, //material-design.storage.googleapis.com/images/components-keylinesinlists-3_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-keylinesinlists-3_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-keylinesinlists-3_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-keylinesinlists-4_large_mdpi.png, //material-design.storage.googleapis.com/images/components-keylinesinlists-4_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-keylinesinlists-4_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-keylinesinlists-4_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="keylines-keylines-intro-4">
+<section class="moduleD1">
+<div class="module-body">
+<p>In a three-line list, each tile contains a maximum of three  lines of text.</p>
+<p>The amount of text can vary between tiles within the same list.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-keylinesinlists-5_large_mdpi.png, //material-design.storage.googleapis.com/images/components-keylinesinlists-5_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-keylinesinlists-5_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-keylinesinlists-5_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-keylinesinlists-6_large_mdpi.png, //material-design.storage.googleapis.com/images/components-keylinesinlists-6_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-keylinesinlists-6_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-keylinesinlists-6_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="keylines-single-line-list-1">
+<section class="moduleD1">
+<h3>Single-line list</h3>
+<div class="module-body">
+<p><strong>Text only</strong></p>
+<p>Font: Roboto Regular 16 sp</p>
+<p>Tile height: 48 dp</p>
+<p>Text padding: 16 dp</p>
+<p>Add 8 dp padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-singlelinelists-1_large_mdpi.png, //material-design.storage.googleapis.com/images/components-singlelinelists-1_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-singlelinelists-1_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-singlelinelists-1_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-singlelinelists-2_large_mdpi.png, //material-design.storage.googleapis.com/images/components-singlelinelists-2_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-singlelinelists-2_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-singlelinelists-2_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-singlelinelists-6_large_mdpi.png, //material-design.storage.googleapis.com/images/components-singlelinelists-6_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-singlelinelists-6_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-singlelinelists-6_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="keylines-single-line-list-2">
+<section class="moduleD1">
+<div class="module-body">
+<p><strong>Icon with text</strong></p>
+<p>Font: Roboto Regular 16 sp</p>
+<p>Tile height: 48 dp</p>
+<p>Left icon padding: 16 dp</p>
+<p>Text left padding: 72 dp</p>
+<p>Text top and bottom padding: 16 dp</p>
+<p>Add 8 dp padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-singlelinelists-7_large_mdpi.png, //material-design.storage.googleapis.com/images/components-singlelinelists-7_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-singlelinelists-7_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-singlelinelists-7_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-singlelinelists-8_large_mdpi.png, //material-design.storage.googleapis.com/images/components-singlelinelists-8_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-singlelinelists-8_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-singlelinelists-8_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-singlelinelists-3_large_mdpi.png, //material-design.storage.googleapis.com/images/components-singlelinelists-3_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-singlelinelists-3_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-singlelinelists-3_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="keylines-single-line-list-3">
+<section class="moduleD1">
+<div class="module-body">
+<p>
+<strong>Avatar with text</strong></p>
+<p>Font: Roboto Regular 16 sp</p>
+<p>Tile height: 56 dp</p>
+<p>Left avatar padding: 16 dp</p>
+<p>Text left padding: 72 dp</p>
+<p>Text top and bottom padding: 20 dp</p>
+<p>Add 8 dp padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-singlelinelists-7_large_mdpi.png, //material-design.storage.googleapis.com/images/components-singlelinelists-7_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-singlelinelists-7_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-singlelinelists-7_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-singlelinelists-8_large_mdpi.png, //material-design.storage.googleapis.com/images/components-singlelinelists-8_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-singlelinelists-8_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-singlelinelists-8_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-singlelinelists-11_large_mdpi.png, //material-design.storage.googleapis.com/images/components-singlelinelists-11_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-singlelinelists-11_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-singlelinelists-11_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="keylines-two-line-list-1">
+<section class="moduleD1">
+<h3>Two-line list</h3>
+<div class="module-body">
+<p>
+<strong>Text only</strong></p>
+<p>Primary text font: Roboto Regular 16 sp</p>
+<p>Secondary text font: Roboto Regular 14 sp</p>
+<p>Tile height: 72 dp</p>
+<p>Text padding: 16 dp</p>
+<p>Add 8 dp padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedtwolinelists-1_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-1_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-1_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedtwolinelists-1_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedtwolinelists-2_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-2_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-2_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedtwolinelists-2_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedtwolinelists-3_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-3_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-3_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedtwolinelists-3_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="keylines-two-line-list-2">
+<section class="moduleD1">
+<div class="module-body">
+<p><strong>Avatar with text</strong></p>
+<p>Primary text font: Roboto Regular 16 sp</p>
+<p>Secondary text font: Roboto Regular 14 sp</p>
+<p>Tile height: 72 dp</p>
+<p>Left avatar padding: 16 dp</p>
+<p>Text left padding: 72 dp</p>
+<p>Text top and bottom padding: 16 dp</p>
+<p>Center-align icon with text area.</p>
+<p>Add 8 dp padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedtwolinelists-6_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-6_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-6_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedtwolinelists-6_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedtwolinelists-7_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-7_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-7_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedtwolinelists-7_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedtwolinelists-8_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-8_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-8_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedtwolinelists-8_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="keylines-two-line-list-3">
+<section class="moduleD1">
+<div class="module-body">
+<p>
+<strong>Avatar with text and icon</strong></p>
+<p>Primary text font: Roboto Regular 16 sp</p>
+<p>Secondary text font: Roboto Regular 14 sp</p>
+<p>Tile height: 72 dp</p>
+<p>Left avatar padding: 16 dp</p>
+<p>Text left padding: 72 dp</p>
+<p>Text top and bottom padding: 16 dp</p>
+<p>Right icon padding: 16 dp</p>
+<p>Add 8 dp padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedtwolinelists-9_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-9_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-9_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedtwolinelists-9_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedtwolinelists-10_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-10_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-10_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedtwolinelists-10_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedtwolinelists-11_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-11_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedtwolinelists-11_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedtwolinelists-11_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="keylines-three-line-list-1">
+<section class="moduleD1">
+<h3>Three-line list</h3>
+<div class="module-body">
+<p>
+<strong>Text only</strong></p>
+<p>Primary text font: Roboto Regular 16 sp</p>
+<p>Secondary text font: Roboto Regular 14 sp</p>
+<p>Tile height: 88 dp</p>
+<p>Text padding: 16 dp</p>
+<p>Add 8 dp padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedthreelinelists-1_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-1_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-1_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedthreelinelists-1_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedthreelinelists-2_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-2_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-2_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedthreelinelists-2_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedthreelinelists-3_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-3_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-3_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedthreelinelists-3_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="keylines-three-line-list-2">
+<section class="moduleD1">
+<div class="module-body">
+<p><strong>Avatar with text</strong></p>
+<p>Primary text font: Roboto Regular 16 sp</p>
+<p>Secondary text font: Roboto Regular 14 sp</p>
+<p>Tile height: 88 dp</p>
+<p>Left avatar padding: 16 dp</p>
+<p>Left text padding: 72 dp</p>
+<p>Top-align avatar with primary text.</p>
+<p>Add 8 dp padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedthreelinelists-6_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-6_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-6_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedthreelinelists-6_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedthreelinelists-7_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-7_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-7_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedthreelinelists-7_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedthreelinelists-10_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-10_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-10_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedthreelinelists-10_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="keylines-three-line-list-3">
+<section class="moduleD1">
+<div class="module-body">
+<p><strong>Avatar with text and icon</strong></p>
+<p>Primary text font: Roboto Regular 16 sp</p>
+<p>Secondary text font: Roboto Regular 14 sp</p>
+<p>Tile height: 88 dp</p>
+<p>Left avatar padding: 16 dp</p>
+<p>Text left padding: 72 dp</p>
+<p>Text top and bottom padding: 16 dp</p>
+<p>Right icon padding: 16 dp</p>
+<p>Top-align avatar and icon with primary text.</p>
+<p>Add 8 dp padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedthreelinelists-8_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-8_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-8_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedthreelinelists-8_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedthreelinelists-9_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-9_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-9_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedthreelinelists-9_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Element</div>
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-recommendedthreelinelists-12_large_mdpi.png, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-12_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-recommendedthreelinelists-12_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-recommendedthreelinelists-12_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Context</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<footer>
+<div class="footer-grid">
+<div class="footer-L section-components">&nbsp;</div>
+<div class="footer-grid-L section-components">
+<a class="footer-text" href="grids.html">
+<img class="arrow-L" alt="" src="http://material-design.storage.googleapis.com/images/Arrow-left_24x24px.svg"/>
+<span>Previous:</span>
+<div>
+Grids
+</div>
+</a>
+</div>
+<div class="footer-R section-components">&nbsp;</div>
+<div class="footer-grid-R section-components">
+<a class="footer-text" href="list-controls.html">
+<img class="arrow-R" alt="" src="http://material-design.storage.googleapis.com/images/Arrow-right_24x24px.svg"/>
+<span>Next:</span>
+<div>
+List controls
+</div>
+</a>
+</div>
+</div>
+</footer>
+<script src="http://www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

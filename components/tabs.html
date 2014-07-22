@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+'Futurizr': {
+'hasTouch': 'touch'
+}
+}">
+<head>
+<link href="../css/style.css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, width=device-width"/>
+<!--<PageMap><DataObject type="document"><Attribute name="uid">140284644011802</Attribute><Attribute name="title">Tabs</Attribute><Attribute name="keywords"></Attribute><Attribute name="slug">tabs</Attribute><Attribute name="description">tbd</Attribute><Attribute name="section_title">Components</Attribute><Attribute name="section_slug">components</Attribute></DataObject><DataObject type="thumbnail"><Attribute name="src" value="None" /></DataObject></PageMap>-->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-51798601-1', 'google.com');
+ga('send', 'pageview');
+</script>
+<title>Tabs - Components - Google design guidelines</title>
+</head>
+<body class=" section-components noninitial-chapter qp-ui" data-qp-ui="{ 'Mask': {} }">
+<header>
+<div class="header-wrapper">
+<div class="header-title">
+<span class="section-title">Components</span>
+<span class="chapter-title">Tabs</span>
+</div>
+</div>
+</header>
+<nav>
+<button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">Show navigation</button>
+</nav>
+<div class="preview-bar">
+<div class="preview-wrapper">
+<span>This document is a preview.</span>
+</div>
+</div>
+<div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+<div class="side-nav-wrapper">
+<span id="logo"><img src="http://material-design.storage.googleapis.com/images/Google_Logo.svg" alt="Google logo"/></span>
+<nav>
+<dl>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material Design</dt>
+<dd>
+<a href="../index.html">Introduction</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Animation</dt>
+<dd>
+<a href="../animation/authentic-motion.html">Authentic Motion</a>
+<a href="../animation/responsive-interaction.html">Responsive Interaction</a>
+<a href="../animation/meaningful-transitions.html">Meaningful Transitions</a>
+<a href="../animation/delightful-details.html">Delightful Details</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Style</dt>
+<dd>
+<a href="../style/color.html">Color</a>
+<a href="../style/typography.html">Typography</a>
+<a href="../style/icons.html">Icons</a>
+<a href="../style/imagery.html">Imagery</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Layout</dt>
+<dd>
+<a href="../layout/layout-principles.html">Principles</a>
+<a href="../layout/metrics-and-keylines.html">Metrics and Keylines </a>
+<a href="../layout/structure.html">Structure</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Components</dt>
+<dd>
+<a href="bottom-sheets.html">Bottom Sheets</a>
+<a href="buttons.html">Buttons</a>
+<a href="cards.html">Cards</a>
+<a href="chips-tokens.html">Chips </a>
+<a href="dialogs.html">Dialogs</a>
+<a href="dividers.html">Dividers</a>
+<a href="grids.html">Grids</a>
+<a href="lists.html">Lists</a>
+<a href="list-controls.html">List controls</a>
+<a href="menus.html">Menus</a>
+<a href="progress-activity.html">Progress and Activity </a>
+<a href="sliders.html">Sliders</a>
+<a href="snackbars-and-toasts.html">Snackbars and Toasts</a>
+<a href="subheaders.html">Subheaders </a>
+<a href="switches.html">Switches</a>
+<a class="nav_selected" href="tabs.html">Tabs</a>
+<a href="text-fields.html">Text fields </a>
+<a href="tooltips.html">Tooltips</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Patterns</dt>
+<dd>
+<a href="../patterns/selection.html">Selection</a>
+<a href="../patterns/gestures.html">Gestures</a>
+<a href="../patterns/promoted-actions.html">Promoted Actions </a>
+<a href="../patterns/settings.html">Settings</a>
+<a href="../patterns/imagery-treatment.html">Imagery Treatment </a>
+<a href="../patterns/search.html">Search </a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Usability</dt>
+<dd>
+<a href="../usability/accessibility.html">Accessibility</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Resources</dt>
+<dd>
+<a href="../resources/layout-templates.html">Layout Templates</a>
+<a href="../resources/sticker-sheets.html">Sticker Sheets</a>
+<a href="../resources/roboto-font.html">Roboto Font</a>
+<a href="../resources/color-palettes.html">Color Palettes</a>
+</dd>
+</dl>
+</nav>
+<div class="legal">
+<p class="copyright">Google &copy;</p>
+<a href="http://www.google.com/intl/en/policies/privacy/">Privacy</a> &amp; <a href="http://www.google.com/intl/en/policies/terms/">Terms</a>
+</div>
+</div>
+</div>
+<div id="grid-cont">
+<section class="grid_outer chapter">
+<h1 class="chapter-title">Tabs</h1>
+<div class="chapter-content">
+<div class="chapter-intro">
+Tabs make it easy to explore and switch between different views or functional aspects of an app, or to browse categorized data sets.
+</div>
+<nav class="chapter-toc">
+<h1>Contents</h1>
+<ul>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-usage">Usage</a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-content">Content </a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-types-of-tabs">Types of Tabs</a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tabs.html#tabs-specs">Specs</a></li>
+</ul>
+</nav>
+<div class="article-list">
+<div id="tabs-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Usage
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="article-intro">
+A tab provides the affordance for displaying an associated grouping of content. A tab label succinctly describes the tab’s associated grouping of content.
+</div>
+<div class="module-list">
+<div id="usage-mobile-tabs">
+<section class="moduleC1 moduleC2">
+<h3>Mobile Tabs</h3>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-02_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-02_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-02_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-02_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Extended app bar + tab bar
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-03_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-03_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-03_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-03_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Inset search + app bar + tab bar
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-06_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-06_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-06_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-06_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Default app bar + tab bar
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-08_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-08_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-08_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-08_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Default app bar + scrollable tab bar
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-07_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-07_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-07_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-07_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Text color same as tab indicator
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-17_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-17_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-17_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-17_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Tab bar locked on scroll
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="usage-desktop-tabs">
+<section class="moduleE1">
+<h3>Desktop tabs</h3>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-09_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-09_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-09_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-09_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Default app bar + tab bar
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-15_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-15_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-15_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-15_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Addition of “More” overflow dropdown menu
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-12_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-12_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-12_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-12_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Tab overflow pagination, Step 1
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-13_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-13_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-13_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-13_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+&nbsp;
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-16_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-16_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-16_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-16_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Menu expanded
+</figcaption>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-14_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-14_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-14_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-14_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+Tab bar centered
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="usage-when-to-use-1">
+<section class="moduleD1">
+<h3>When to use</h3>
+<div class="module-body">
+<p>Use tabs to divide large amounts of related data or options into more digestible, focused groups with the goal of aiding content navigation or content organization, without the need to navigate away from the current context.</p>
+<p>Although tabbed content may be navigational in nature (e.g., map route options that change a map view, search results leading to other sites), tabs are not themselves used for navigation.</p>
+<p>Tabs are also not used for carousels or pagination of content (for example, swiping between pages of apps).</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure class="example do">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_10_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_10_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_10_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_10_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Do.</div>
+</figcaption>
+</figure>
+<figure class="example dont">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_10_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_10_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_10_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_10_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Don&#39;t. </div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="usage-tab-characteristics-1">
+<section class="moduleD1">
+<h3>Tab characteristics</h3>
+<div class="module-body">
+<p>Tabs are presented as a single row.</p>
+<p>Tabs should not be nested. That is, content in a tab should not consist of another set of tabbed content.</p>
+<p>A set of tabs contains at minimum a pair of tabs and no more than six tabs.</p>
+<p>Tabs control the display of content in a consistent location.</p>
+<p>The tab corresponding to the visible content is highlighted.</p>
+<p>Tabs are grouped together and the group of tabs are in turn connected with their content.</p>
+<p>Keeping tabs adjacent to their content helps maintain the relationship between the two, as too great a separation can introduce ambiguity.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure class="example do">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_06_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_06_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_06_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_06_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Do. </div>
+</figcaption>
+</figure>
+<figure class="example dont">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_06_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_06_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_06_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_06_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Don&#39;t.</div>
+</figcaption>
+</figure>
+<figure class="example do">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_08_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_08_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_08_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs_do_08_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Do. </div>
+</figcaption>
+</figure>
+<figure class="example dont">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_08_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_08_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_08_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs_dont_08_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Don&#39;t.</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="tabs-content" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Content
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="content-tab-content">
+<section class="moduleE1">
+<h3>Tab content</h3>
+<div class="module-body">
+<p>Content presented in tabs can vary widely, even between tabs. For example, different years within a tabbed portfolio or different types of settings.</p>
+<p>All content within a set of tabs should be related under a larger organizing principle (e.g., Settings, Directions), with each tab’s content mutually exclusive of the others.</p>
+<p>Tab labels should provide meaningful distinctions that logically organize associated content.</p>
+<p>Tab labels may be icons or text, and must not be truncated.</p>
+<p>Avoid the need for cross-tab comparison of content; significant cross-tab comparison may indicate the content would benefit from a different organization or presentation.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-content-tabs_15_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-content-tabs_15_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-content-tabs_15_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-content-tabs_15_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="tabs-types-of-tabs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Types of Tabs
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="article-intro">
+Depending on platform and context of use, tabbed content can be presented as either fixed tabs or scrollable (swipeable) tabs.
+</div>
+<div class="module-list">
+<div id="types-of-tabs-fixed-tabs">
+<section class="moduleD1">
+<h3>Fixed tabs</h3>
+<div class="module-body">
+<p>Fixed tabs display all tabs concurrently and are best used with content that benefits from quick pivots between tabs (e.g., switching transportation methods for directions in Maps).</p>
+<p>The maximum number of tabs is effectively limited by the view’s width. Fixed tabs have equal width, based on the widest tab label. To navigate between fixed tabs, touch the tab or swipe the content area left or right.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-06_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-06_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-06_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-06_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="types-of-tabs-scrollable-tabs">
+<section class="moduleE1">
+<h3>Scrollable tabs</h3>
+<div class="module-body">
+<p>Scrollable tabs display a subset of tabs at any given moment, and can contain longer tab labels and a larger number of tabs. They are best used for browsing contexts in touch interfaces when users don’t need to directly compare the tab labels.</p>
+<p>To navigate between scrollable tabs, touch the tab, swipe the tabs left or right, or swipe the content area left or right.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-12_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-12_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-12_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-12_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-13_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-13_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-13_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-usage-tabs-spec-13_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="tabs-specs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Specs
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="specs-tabs-specs-1">
+<section class="moduleD1">
+<h3>Fixed and full-screen width</h3>
+<div class="module-body">
+Tab Width: 1/3 of screen
+<br/>
+Tab Indicator: 2 dp height
+<br/>
+Text: 14 sp Roboto Medium
+<br/>
+Text is centered in the tab cell
+<br/>
+Active text color: #fff or secondary color
+<br/>
+Disabled text color: #fff 60%
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-04_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-04_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-04_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-04_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="specs-tabs-specs-2">
+<section class="moduleD1">
+<h3>Scrollable</h3>
+<div class="module-body">
+Tab Width: 12 dp + Word length + 12 dp
+<br/>
+Tab Indicator: 2 dp height
+<br/>
+Text: 14 sp Roboto Medium
+<br/>
+Active text color: #fff or secondary color
+<br/>
+Disabled text color: #fff 60%
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-05_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-05_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-05_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-05_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="specs-tabs-specs-3">
+<section class="moduleE1">
+<h3>Desktop/Tablet</h3>
+<div class="module-body">
+Tab Width: 24 dp + Word length + 24 dp
+<br/>
+Tab Indicator: 2 dp height
+<br/>
+Text: 14 sp Tablet, 13 sp Desktop Roboto Medium
+<br/>
+Active text color: #fff or secondary color
+<br/>
+Disabled text color: #fff 60%
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-10_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-10_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-10_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tabs-typesoftabs-tabs-spec-10_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="specs-specs-4">
+<section class="moduleE1">
+<h3>Tab touch target animation</h3>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+<video id="components-tabs-spec-tabtouch-example--1" crossorigin="anonymous"  loop  controls width="456" height="115">
+<source src="//material-design.storage.googleapis.com/videos/components-tabs-spec-tabtouch-example_large_xhdpi.webm" type="video/webm">
+<source src="//material-design.storage.googleapis.com/videos/components-tabs-spec-tabtouch-example_large_xhdpi.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<footer>
+<div class="footer-grid">
+<div class="footer-L section-components">&nbsp;</div>
+<div class="footer-grid-L section-components">
+<a class="footer-text" href="switches.html">
+<img class="arrow-L" alt="" src="http://material-design.storage.googleapis.com/images/Arrow-left_24x24px.svg"/>
+<span>Previous:</span>
+<div>
+Switches
+</div>
+</a>
+</div>
+<div class="footer-R section-components">&nbsp;</div>
+<div class="footer-grid-R section-components">
+<a class="footer-text" href="text-fields.html">
+<img class="arrow-R" alt="" src="http://material-design.storage.googleapis.com/images/Arrow-right_24x24px.svg"/>
+<span>Next:</span>
+<div>
+Text fields
+</div>
+</a>
+</div>
+</div>
+</footer>
+<script src="http://www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

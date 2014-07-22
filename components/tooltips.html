@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+'Futurizr': {
+'hasTouch': 'touch'
+}
+}">
+<head>
+<link href="../css/style.css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, width=device-width"/>
+<!--<PageMap><DataObject type="document"><Attribute name="uid">140292653458419</Attribute><Attribute name="title">Tooltips</Attribute><Attribute name="keywords"></Attribute><Attribute name="slug">tooltips</Attribute><Attribute name="description">tbd</Attribute><Attribute name="section_title">Components</Attribute><Attribute name="section_slug">components</Attribute></DataObject><DataObject type="thumbnail"><Attribute name="src" value="None" /></DataObject></PageMap>-->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-51798601-1', 'google.com');
+ga('send', 'pageview');
+</script>
+<title>Tooltips - Components - Google design guidelines</title>
+</head>
+<body class=" section-components noninitial-chapter qp-ui" data-qp-ui="{ 'Mask': {} }">
+<header>
+<div class="header-wrapper">
+<div class="header-title">
+<span class="section-title">Components</span>
+<span class="chapter-title">Tooltips</span>
+</div>
+</div>
+</header>
+<nav>
+<button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">Show navigation</button>
+</nav>
+<div class="preview-bar">
+<div class="preview-wrapper">
+<span>This document is a preview.</span>
+</div>
+</div>
+<div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+<div class="side-nav-wrapper">
+<span id="logo"><img src="http://material-design.storage.googleapis.com/images/Google_Logo.svg" alt="Google logo"/></span>
+<nav>
+<dl>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material Design</dt>
+<dd>
+<a href="../index.html">Introduction</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Animation</dt>
+<dd>
+<a href="../animation/authentic-motion.html">Authentic Motion</a>
+<a href="../animation/responsive-interaction.html">Responsive Interaction</a>
+<a href="../animation/meaningful-transitions.html">Meaningful Transitions</a>
+<a href="../animation/delightful-details.html">Delightful Details</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Style</dt>
+<dd>
+<a href="../style/color.html">Color</a>
+<a href="../style/typography.html">Typography</a>
+<a href="../style/icons.html">Icons</a>
+<a href="../style/imagery.html">Imagery</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Layout</dt>
+<dd>
+<a href="../layout/layout-principles.html">Principles</a>
+<a href="../layout/metrics-and-keylines.html">Metrics and Keylines </a>
+<a href="../layout/structure.html">Structure</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Components</dt>
+<dd>
+<a href="bottom-sheets.html">Bottom Sheets</a>
+<a href="buttons.html">Buttons</a>
+<a href="cards.html">Cards</a>
+<a href="chips-tokens.html">Chips </a>
+<a href="dialogs.html">Dialogs</a>
+<a href="dividers.html">Dividers</a>
+<a href="grids.html">Grids</a>
+<a href="lists.html">Lists</a>
+<a href="list-controls.html">List controls</a>
+<a href="menus.html">Menus</a>
+<a href="progress-activity.html">Progress and Activity </a>
+<a href="sliders.html">Sliders</a>
+<a href="snackbars-and-toasts.html">Snackbars and Toasts</a>
+<a href="subheaders.html">Subheaders </a>
+<a href="switches.html">Switches</a>
+<a href="tabs.html">Tabs</a>
+<a href="text-fields.html">Text fields </a>
+<a class="nav_selected" href="tooltips.html">Tooltips</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Patterns</dt>
+<dd>
+<a href="../patterns/selection.html">Selection</a>
+<a href="../patterns/gestures.html">Gestures</a>
+<a href="../patterns/promoted-actions.html">Promoted Actions </a>
+<a href="../patterns/settings.html">Settings</a>
+<a href="../patterns/imagery-treatment.html">Imagery Treatment </a>
+<a href="../patterns/search.html">Search </a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Usability</dt>
+<dd>
+<a href="../usability/accessibility.html">Accessibility</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Resources</dt>
+<dd>
+<a href="../resources/layout-templates.html">Layout Templates</a>
+<a href="../resources/sticker-sheets.html">Sticker Sheets</a>
+<a href="../resources/roboto-font.html">Roboto Font</a>
+<a href="../resources/color-palettes.html">Color Palettes</a>
+</dd>
+</dl>
+</nav>
+<div class="legal">
+<p class="copyright">Google &copy;</p>
+<a href="http://www.google.com/intl/en/policies/privacy/">Privacy</a> &amp; <a href="http://www.google.com/intl/en/policies/terms/">Terms</a>
+</div>
+</div>
+</div>
+<div id="grid-cont">
+<section class="grid_outer chapter">
+<h1 class="chapter-title">Tooltips</h1>
+<div class="chapter-content">
+<nav class="chapter-toc">
+<h1>Contents</h1>
+<ul>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tooltips.html#tooltips-usage">Usage </a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tooltips.html#tooltips-cursor-keyboard-tooltips">Cursor/keyboard Tooltips </a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="tooltips.html#tooltips-touch-ui-tooltips">Touch UI Tooltips </a></li>
+</ul>
+</nav>
+<div class="article-list">
+<div id="tooltips-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Usage
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="usage-tooltips-usage-1">
+<section class="moduleD1">
+<div class="module-body">
+<p>Use tooltips for elements that are 1) interactive and 2) primarily graphical (not textual).</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure class="example do">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_06a_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_06a_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_06a_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_06a_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Do.</div>
+</figcaption>
+</figure>
+<figure class="example dont">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_06b_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_06b_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_06b_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_06b_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Don&#39;t.</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="usage-tooltips-usage-2">
+<section class="moduleD1">
+<div class="module-body">
+<p>
+Tooltips are different then hovercards, which display richer information including images and formatted text.</p>
+<p>Tooltips are different than ALT-attributes, which are intended primarily for static images.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure class="example do">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_13a_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_13a_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_13a_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_13a_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Do.</div>
+</figcaption>
+</figure>
+<figure class="example dont">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_13b_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_13b_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_13b_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tooltips-usage-tooltips_13b_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Don&#39;t.</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="tooltips-cursor-keyboard-tooltips" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Cursor/keyboard Tooltips
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="cursor-keyboard-tooltips-cursor-keyboard-tooltips">
+<section class="moduleD1">
+<div class="module-body">
+<p>Text: Roboto Medium 10 sp</p>
+<p>Background fill: 90% opaque</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tooltips-cursorkeyboardtooltips-tooltips_09_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tooltips-cursorkeyboardtooltips-tooltips_09_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tooltips-cursorkeyboardtooltips-tooltips_09_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tooltips-cursorkeyboardtooltips-tooltips_09_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="cursor-keyboard-tooltips-cursor-keyboard-tooltips-2">
+<section class="moduleE1">
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tooltips-cursorkeyboardtooltips-tooltips_03_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tooltips-cursorkeyboardtooltips-tooltips_03_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tooltips-cursorkeyboardtooltips-tooltips_03_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tooltips-cursorkeyboardtooltips-tooltips_03_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="cursor-keyboard-tooltips-cursor-keyboard-tooltips-3">
+<section class="moduleD1">
+<h3>Tooltip motion</h3>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+<video id="components-tooltips-cursorkeyboardtooltips-tooltips_005--1" crossorigin="anonymous"  loop  controls width="360" height="384">
+<source src="//material-design.storage.googleapis.com/videos/components-tooltips-cursorkeyboardtooltips-tooltips_005_large_xhdpi.webm" type="video/webm">
+<source src="//material-design.storage.googleapis.com/videos/components-tooltips-cursorkeyboardtooltips-tooltips_005_large_xhdpi.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="tooltips-touch-ui-tooltips" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Touch UI Tooltips
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="touch-ui-tooltips-touch-ui-tooltips">
+<section class="moduleD1">
+<h3>Touch UI Tooltips</h3>
+<div class="module-body">
+<p>Text is Roboto Medium 14 sp</p>
+<p>Background fill is 90% opaque</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_16_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_16_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_16_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_16_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="touch-ui-tooltips-touch-ui-tooltips-2">
+<section class="moduleD1">
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_15a_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_15a_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_15a_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_15a_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_15b_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_15b_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_15b_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_15b_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_19a_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_19a_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_19a_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_19a_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_19b_large_mdpi.png, //material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_19b_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_19b_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-tooltips-touchuitooltips-tooltips_19b_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<footer>
+<div class="footer-grid">
+<div class="footer-L section-components">&nbsp;</div>
+<div class="footer-grid-L section-components">
+<a class="footer-text" href="text-fields.html">
+<img class="arrow-L" alt="" src="http://material-design.storage.googleapis.com/images/Arrow-left_24x24px.svg"/>
+<span>Previous:</span>
+<div>
+Text fields
+</div>
+</a>
+</div>
+<div class="footer-R section-patterns">&nbsp;</div>
+<div class="footer-grid-R section-patterns">
+<a class="footer-text" href="../patterns/selection.html">
+<img class="arrow-R" alt="" src="http://material-design.storage.googleapis.com/images/Arrow-right_24x24px.svg"/>
+<span>Next:</span>
+<div>
+Patterns
+</div>
+</a>
+</div>
+</div>
+</footer>
+<script src="http://www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html class="qp-ui" data-qp-ui="{
+'Futurizr': {
+'hasTouch': 'touch'
+}
+}">
+<head>
+<link href="../css/style.css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, width=device-width"/>
+<!--<PageMap><DataObject type="document"><Attribute name="uid">140268389056793</Attribute><Attribute name="title">Snackbars and Toasts</Attribute><Attribute name="keywords"></Attribute><Attribute name="slug">snackbars-and-toasts</Attribute><Attribute name="description">tbd</Attribute><Attribute name="section_title">Components</Attribute><Attribute name="section_slug">components</Attribute></DataObject><DataObject type="thumbnail"><Attribute name="src" value="None" /></DataObject></PageMap>-->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-51798601-1', 'google.com');
+ga('send', 'pageview');
+</script>
+<title>Snackbars and Toasts - Components - Google design guidelines</title>
+</head>
+<body class=" section-components noninitial-chapter qp-ui" data-qp-ui="{ 'Mask': {} }">
+<header>
+<div class="header-wrapper">
+<div class="header-title">
+<span class="section-title">Components</span>
+<span class="chapter-title">Snackbars and Toasts</span>
+</div>
+</div>
+</header>
+<nav>
+<button class="hamburger-button qp-ui" data-qp-ui="{ 'SideNavToggle': {} }" role="tab">Show navigation</button>
+</nav>
+<div class="preview-bar">
+<div class="preview-wrapper">
+<span>This document is a preview.</span>
+</div>
+</div>
+<div id="side-nav" class="qp-ui" data-qp-ui="{ 'SideNavDrawer': {} }">
+<div class="side-nav-wrapper">
+<span id="logo"><img src="http://material-design.storage.googleapis.com/images/Google_Logo.svg" alt="Google logo"/></span>
+<nav>
+<dl>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Material Design</dt>
+<dd>
+<a href="../index.html">Introduction</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Animation</dt>
+<dd>
+<a href="../animation/authentic-motion.html">Authentic Motion</a>
+<a href="../animation/responsive-interaction.html">Responsive Interaction</a>
+<a href="../animation/meaningful-transitions.html">Meaningful Transitions</a>
+<a href="../animation/delightful-details.html">Delightful Details</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Style</dt>
+<dd>
+<a href="../style/color.html">Color</a>
+<a href="../style/typography.html">Typography</a>
+<a href="../style/icons.html">Icons</a>
+<a href="../style/imagery.html">Imagery</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Layout</dt>
+<dd>
+<a href="../layout/layout-principles.html">Principles</a>
+<a href="../layout/metrics-and-keylines.html">Metrics and Keylines </a>
+<a href="../layout/structure.html">Structure</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': true }">Components</dt>
+<dd>
+<a href="bottom-sheets.html">Bottom Sheets</a>
+<a href="buttons.html">Buttons</a>
+<a href="cards.html">Cards</a>
+<a href="chips-tokens.html">Chips </a>
+<a href="dialogs.html">Dialogs</a>
+<a href="dividers.html">Dividers</a>
+<a href="grids.html">Grids</a>
+<a href="lists.html">Lists</a>
+<a href="list-controls.html">List controls</a>
+<a href="menus.html">Menus</a>
+<a href="progress-activity.html">Progress and Activity </a>
+<a href="sliders.html">Sliders</a>
+<a class="nav_selected" href="snackbars-and-toasts.html">Snackbars and Toasts</a>
+<a href="subheaders.html">Subheaders </a>
+<a href="switches.html">Switches</a>
+<a href="tabs.html">Tabs</a>
+<a href="text-fields.html">Text fields </a>
+<a href="tooltips.html">Tooltips</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Patterns</dt>
+<dd>
+<a href="../patterns/selection.html">Selection</a>
+<a href="../patterns/gestures.html">Gestures</a>
+<a href="../patterns/promoted-actions.html">Promoted Actions </a>
+<a href="../patterns/settings.html">Settings</a>
+<a href="../patterns/imagery-treatment.html">Imagery Treatment </a>
+<a href="../patterns/search.html">Search </a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Usability</dt>
+<dd>
+<a href="../usability/accessibility.html">Accessibility</a>
+</dd>
+<dt class="qp-ui" data-qp-ui="{ 'SideNavZippy': false }">Resources</dt>
+<dd>
+<a href="../resources/layout-templates.html">Layout Templates</a>
+<a href="../resources/sticker-sheets.html">Sticker Sheets</a>
+<a href="../resources/roboto-font.html">Roboto Font</a>
+<a href="../resources/color-palettes.html">Color Palettes</a>
+</dd>
+</dl>
+</nav>
+<div class="legal">
+<p class="copyright">Google &copy;</p>
+<a href="http://www.google.com/intl/en/policies/privacy/">Privacy</a> &amp; <a href="http://www.google.com/intl/en/policies/terms/">Terms</a>
+</div>
+</div>
+</div>
+<div id="grid-cont">
+<section class="grid_outer chapter">
+<h1 class="chapter-title">Snackbars and Toasts</h1>
+<div class="chapter-content">
+<div class="chapter-intro">
+<p>Snackbars provide lightweight feedback about an operation in a small popup at the base of the screen on mobile and at the lower left on desktop. They are above all over elements on screen, including the floating action button. </p>
+<p>They automatically disappear after a timeout or after user interaction elsewhere on the screen, whichever comes first. Snackbars can be swiped off screen. They do not block input on the screens they appear on and cannot receive input focus. Show only one snackbar on screen at a time.</p>
+<p>Android also provides a capsule-shaped toast, primarily used for system messaging. Toasts are similar to snackbars but do not contain actions and cannot be swiped off screen.</p>
+</div>
+<nav class="chapter-toc">
+<h1>Contents</h1>
+<ul>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="snackbars-and-toasts.html#snackbars-and-toasts-usage">Usage</a></li>
+<li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ 'SmoothScroll': {} }" href="snackbars-and-toasts.html#snackbars-and-toasts-specs">Specs</a></li>
+</ul>
+</nav>
+<div class="article-list">
+<div id="snackbars-and-toasts-usage" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Usage
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="usage-snackbar-usage-guidance-1">
+<section class="moduleD1">
+<h3>Very short text strings</h3>
+<div class="module-body">
+<p>Snackbars should generally only be tall enough to accommodate one string, and the string should be directly related to the operation performed. They cannot contain icons or action icons. Actions are in the form of text.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure class="example do">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_20_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_20_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_20_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_20_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Do. </div>
+</figcaption>
+</figure>
+<figure class="example dont">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_20_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_20_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_20_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_20_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Don&#39;t. </div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="usage-snackbar-usage-guidance-2">
+<section class="moduleD1">
+<h3>Transient</h3>
+<div class="module-body">
+<p>For usability, snackbars should not contain the only way to access a core use case. They should not be persistent and stack, as they are above other elements on screen.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure class="example do">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_22_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_22_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_22_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_22_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Do. </div>
+</figcaption>
+</figure>
+<figure class="example dont">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_22_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_22_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_22_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_22_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Don&#39;t. </div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="usage-snackbar-usage-guidance-3">
+<section class="moduleD1">
+<h3>0-1 actions, not dismiss or cancel</h3>
+<div class="module-body">
+<p>If an action is present, comply with dialog spacing and affordance rules. For two or more actions, use a dialog, not a snackbar, even when one of the actions is a dismiss action. If the action(s) described in the snackbar are important enough to block usage of the screen, it should be a dialog.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure class="example do">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_24_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_24_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_24_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_24_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Do.</div>
+</figcaption>
+</figure>
+<figure class="example dont">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_24_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_24_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_24_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_24_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Don&#39;t. </div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="usage-snackbar-usage-guidance-4">
+<section class="moduleD1">
+<h3>Don’t block the floating action button</h3>
+<div class="module-body">
+<p>Move your floating action button vertically to accommodate the snackbar height.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure class="example do">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_26_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_26_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_26_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_do_26_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Do.</div>
+</figcaption>
+</figure>
+<figure class="example dont">
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_26_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_26_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_26_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-usage-spec_toast_dont_26_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+<figcaption>
+<div class="caption-title">Don&#39;t.</div>
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="snackbars-and-toasts-specs" class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }">
+<h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }">
+Specs
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+<title id="title">Expand and collapse content</title>
+<desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+<polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"/>
+</svg>
+</h2>
+<div class="article-content">
+<div class="module-list">
+<div id="specs-mobile-snackbar">
+<section class="moduleD1">
+<h3>Mobile snackbar</h3>
+<div class="module-body">
+<ul>
+<li>Single-line snackbar height: 48 dp</li>
+<li>Multi-line snackbar height: 80 dp</li>
+<li>Text: Roboto Regular 14 sp</li>
+<li>Action button: Roboto Medium 14 sp, all-caps text</li>
+<li>Default background fill: #323232 100%</li>
+</ul>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_03_1_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_03_1_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_03_1_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_03_1_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_03_2_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_03_2_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_03_2_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_03_2_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+<video id="components-snackbars-and-toasts-specs-snackbar.single.line-dismissal--3" crossorigin="anonymous"  loop  controls width="360" height="640">
+<source src="//material-design.storage.googleapis.com/videos/components-snackbars-and-toasts-specs-snackbar.single.line-dismissal_large_xhdpi.webm" type="video/webm">
+<source src="//material-design.storage.googleapis.com/videos/components-snackbars-and-toasts-specs-snackbar.single.line-dismissal_large_xhdpi.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="specs-snackbars-mobile-2">
+<section class="moduleE1">
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-3-spec_toast_06_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-3-spec_toast_06_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-3-spec_toast_06_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-3-spec_toast_06_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="specs-tablet-desktop-snackbar">
+<section class="moduleE1">
+<h3>Tablet/Desktop snackbar</h3>
+<div class="module-body">
+<ul>
+<li>Single-line snackbar height: 48 dp tall</li>
+<li>Minimum width: 288 dp</li>
+<li>Maximum width:  568 dp</li>
+<li>2 dp rounded corner</li>
+<li>Text: Roboto Regular 14 sp</li>
+<li>Action button: Roboto Medium 14 sp, all-caps text</li>
+<li>Default background fill: #323232 100%</li>
+</ul>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_08_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_08_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_08_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_08_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_10_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_10_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_10_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_10_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_12_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_12_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_12_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_12_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div class="qp-ui" data-qp-ui="{ 'VideoPlayer': {} }">
+<video id="components-snackbars-and-toasts-specs-snackbar.tablet-time.out--4" crossorigin="anonymous"  loop  controls width="512" height="284">
+<source src="//material-design.storage.googleapis.com/videos/components-snackbars-and-toasts-specs-snackbar.tablet-time.out_large_xhdpi.webm" type="video/webm">
+<source src="//material-design.storage.googleapis.com/videos/components-snackbars-and-toasts-specs-snackbar.tablet-time.out_large_xhdpi.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+<div id="specs-android-toast">
+<section class="moduleE1">
+<h3>Android toast</h3>
+<div class="module-body">
+<p>Developers can create custom toasts and/or custom screen placements for them. If making a custom toast, you are strongly encouraged to adhere to the snackbar style provided above.</p>
+</div>
+<div class="figure-group">
+<div class="figure-row">
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts--specs-snackbar_toast_14_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts--specs-snackbar_toast_14_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts--specs-snackbar_toast_14_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts--specs-snackbar_toast_14_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_16_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_16_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_16_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-specs-snackbar_toast_16_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+<figure >
+<div class="media">
+<div >
+<picture>
+<source srcset="//material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_18_large_mdpi.png, //material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_18_large_xhdpi.png 2x, //material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_18_large_xhdpi.png 3x"></source>
+<img  src="http://material-design.storage.googleapis.com/images/components-toasts-specs-spec_toast_18_large_mdpi.png" alt="">
+</picture>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<footer>
+<div class="footer-grid">
+<div class="footer-L section-components">&nbsp;</div>
+<div class="footer-grid-L section-components">
+<a class="footer-text" href="sliders.html">
+<img class="arrow-L" alt="" src="http://material-design.storage.googleapis.com/images/Arrow-left_24x24px.svg"/>
+<span>Previous:</span>
+<div>
+Sliders
+</div>
+</a>
+</div>
+<div class="footer-R section-components">&nbsp;</div>
+<div class="footer-grid-R section-components">
+<a class="footer-text" href="subheaders.html">
+<img class="arrow-R" alt="" src="http://material-design.storage.googleapis.com/images/Arrow-right_24x24px.svg"/>
+<span>Next:</span>
+<div>
+Subheaders
+</div>
+</a>
+</div>
+</div>
+</footer>
+<script src="http://www.gstatic.com/external_hosted/picturefill/picturefill.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
