@@ -13,4 +13,4 @@
 
 참여하고 있는 사람
 ------------------
-[KyuHyuk Lee](https://github.com/LeeKyuHyuk), [Kyung Lee](https://github.com/rumot), [MinSoo Lee](https://github.com/BFSword)
+[KyuHyuk Lee](https://github.com/LeeKyuHyuk), [Kyung Lee](https://github.com/rumot), [Jisun Park](https://github.com/JessicaJisun), [MinSoo Lee](https://github.com/BFSword)
